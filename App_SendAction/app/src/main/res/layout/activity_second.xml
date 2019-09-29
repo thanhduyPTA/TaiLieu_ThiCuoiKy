@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Thông tin gửi"
+        android:textColor="#FACA1C"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên:" />
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CMND:" />
+
+        <EditText
+            android:id="@+id/edCMND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtBangCap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Bằng cắp:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/edHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Sở thích:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/edInfor"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:text="Thông tin:"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:text="Chuyển lại"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>

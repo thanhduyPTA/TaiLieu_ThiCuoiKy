@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dsSV"
+        android:title="Xem danh sách sinh viên" />
+
+    <item android:id="@+id/dsLop"
+        android:title="Xem danh sách lớp">
+        <menu>
+            <item android:id="@+id/dh1A"
+                android:title="Đại học tin học 1A"/>
+            <item android:id="@+id/dh1B"
+                android:title="Đại học tin học 1B"/>
+        </menu>
+    </item>
+</menu>
